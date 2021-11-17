@@ -1,0 +1,28 @@
+body{
+    background: url('img/tree.png'), url('img/field.jpg');
+    background-repeat: no-repeat, repeat;
+    color: white;
+}
+
+h2{
+    color: orage;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+
+/* untuk class*/
+.kotak{
+    padding: 50px;
+    width: 100px;
+    color: #fff;
+    margin: 10px;
+    background: orange;
+}
+
+/* untuk id */
+#kotak{
+    padding: 50px;
+    width: 400px;
+    color: #fff;
+    background: blue;
+}
