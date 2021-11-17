@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengenalan JS</title>
+</head>
+<body>
+    <div id="div">
+        <label for="">Nama Depan :</label><input type="text" id="namaDepan"><br>
+        <label for="">Nama Belakang :</label><input type="text" id="namaBelakang"><br>
+        <button type="submit" onclick="getValue()">Cek!</button>
+    </div>
+    <script type="text/javascript">
+        function getValue(){
+            var firstName = document.getElementById("namaDepan").value;
+            var lastName = document.getElementById("namaBelakang").value;
+            var par = document.createElement("p");
+            var node = document.createTextNode("Hallo "+firstName+" "+lastName);
+            par.appendChild(node);
+            document.getElementById("div").appendChild(par);
+        }
+    </script>
+</body>
+</html>
