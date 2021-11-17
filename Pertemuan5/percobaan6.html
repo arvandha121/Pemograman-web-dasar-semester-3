@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengenalan JS</title>
+</head>
+<body>
+    <div id="dv">
+        <p id="p1">Ini adalah paragraf pertama</p>
+        <p id="p2">Ini adalah paragraf kedua</p>
+    </div>
+    <script>
+        var parent = document.getElementById("dv");
+        var child = document.getElementById("p2");
+        //menghapus var child dari parent id dv
+        parent.removeChild(child);
+    </script>
+</body>
+</html>
